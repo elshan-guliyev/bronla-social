@@ -1,0 +1,29 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%}
+body{font-family:'Inter',sans-serif;color:#0B1B33;-webkit-font-smoothing:antialiased;overflow:hidden}
+.h{font-family:'Inter Display','Inter',sans-serif;font-weight:800;letter-spacing:-0.03em;line-height:1.04}
+.grad{background:linear-gradient(145deg,#0B2A8F 0%,#1747D8 52%,#2A63F5 100%);color:#fff}
+.white{background:#F5F7FB}
+.page{position:absolute;inset:0;padding:88px 80px;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:20px;font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:52px;letter-spacing:-0.03em}
+.brand svg{width:72px;height:72px}
+.card{background:#fff;border:1px solid #E6ECF5;border-radius:40px;padding:40px;color:#0B1B33;box-shadow:0 24px 60px rgba(11,42,143,.10)}
+.grad .card{border:none;box-shadow:0 30px 80px rgba(4,16,64,.35)}
+.lab{font-size:28px;line-height:36px;font-weight:600;color:#5B6B82}
+.big{font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:72px;line-height:76px;letter-spacing:-0.03em}
+.mid{font-weight:700;font-size:38px;line-height:46px;letter-spacing:-0.01em}
+.pill{display:inline-flex;align-items:center;gap:14px;border-radius:999px;padding:18px 32px;font-weight:700;font-size:30px;line-height:36px}
+.pill.w{background:#fff;color:#1747D8}
+.pill.g{background:rgba(255,255,255,.16);color:#fff}
+.pill.b{background:#EEF3FF;color:#1747D8}
+.pill.ok{background:#E7F8EE;color:#0E8A4B}
+.dot{width:16px;height:16px;border-radius:50%;background:currentColor}
+.foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between}
+.slogan{font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:56px;letter-spacing:-0.03em}
+.glow{position:absolute;border-radius:50%;filter:blur(90px);opacity:.55;background:#5B8CFF}
+.row{display:flex;gap:28px}
+.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.slot{border-radius:28px;border:2px solid #E6ECF5;background:#fff;padding:30px 0;text-align:center;font-weight:700;font-size:40px;color:#0B1B33}
+.slot.off{background:#F1F4FA;color:#8A97AB;border-color:#F1F4FA;text-decoration:line-through}
+.slot.on{background:#1747D8;border-color:#1747D8;color:#fff;box-shadow:0 16px 40px rgba(23,71,216,.35)}
+.num{width:88px;height:88px;border-radius:28px;background:#1747D8;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:44px}
